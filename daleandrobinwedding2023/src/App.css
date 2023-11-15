@@ -1,0 +1,702 @@
+@font-face {
+  font-family: 'Saturday';
+  src: url(public/Saturday.otf);
+}
+
+@font-face {
+  font-family: 'Mantana';
+  src: url(/Mantana-Regular.otf);
+}
+
+@font-face {
+  font-family: 'Varsity';
+  src: url(/varsity.otf);
+}
+
+@font-face {
+  font-family: 'Halloween';
+  src: url(/halloween.otf);
+}
+
+@font-face {
+  font-family: 'Gratina';
+  src: url(/Gratina.otf);
+}
+
+@font-face {
+  font-family: 'Roman';
+  src: url(/Roman.otf);
+}
+
+@font-face {
+  font-family: 'Groovy';
+  src: url(/Groovy.otf);
+}
+
+@font-face {
+  font-family: 'Conthrax';
+  src: url(/conthrax.otf);
+}
+
+@font-face {
+  font-family: 'Vogue';
+  src: url(/Vogue.ttf);
+}
+
+body {
+  margin: 0;
+}
+
+  @media (max-width: 468px) {
+    body {
+      margin: 0;
+      background-image: url('/paper3.png');
+      width: 60vh;
+      display: flex;
+      justify-content: center;
+    }    
+  }
+
+
+* {
+  font-family: 'Mantana';
+}
+
+
+.page1a {
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url('/paper3.png');
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  font-size: 3vh;
+  margin-top: -2vh;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.headerHome:hover {
+  color: goldenrod;
+  text-shadow: 
+  -1px -1px 0 #000, /* Top-left shadow */
+   1px -1px 0 #000, /* Top-right shadow */
+  -1px  1px 0 #000, /* Bottom-left shadow */
+   1px  1px 0 #000; /* Bottom-right shadow */
+}
+
+.headerInfo:hover {
+  color: orangered;
+  text-shadow: 
+  -1px -1px 0 #000, /* Top-left shadow */
+   1px -1px 0 #000, /* Top-right shadow */
+  -1px  1px 0 #000, /* Bottom-left shadow */
+   1px  1px 0 #000; /* Bottom-right shadow */
+}
+
+
+.headerMenu:hover {
+  color: goldenrod;
+  text-shadow: 
+  -1px -1px 0 #000, /* Top-left shadow */
+   1px -1px 0 #000, /* Top-right shadow */
+  -1px  1px 0 #000, /* Bottom-left shadow */
+   1px  1px 0 #000; /* Bottom-right shadow */
+}
+
+
+.headerRSVP:hover {
+  color: orangered;
+  text-shadow: 
+  -1px -1px 0 #000, /* Top-left shadow */
+   1px -1px 0 #000, /* Top-right shadow */
+  -1px  1px 0 #000, /* Bottom-left shadow */
+   1px  1px 0 #000; /* Bottom-right shadow */
+}
+
+
+.daleandrobin {
+  font-size: 8vh;
+  color: orangered;
+  text-shadow: 
+  -1px -1px 0 #000, /* Top-left shadow */
+   1px -1px 0 #000, /* Top-right shadow */
+  -1px  1px 0 #000, /* Bottom-left shadow */
+   1px  1px 0 #000; /* Bottom-right shadow */
+  margin-top: -10vh;
+  margin-bottom: -10vh;
+  align-self: center;
+  z-index: 0;
+}
+
+.inviteyou {
+  font-size: 3vh;
+  color: goldenrod;
+  text-shadow: 
+  -1px -1px 0 #000, /* Top-left shadow */
+   1px -1px 0 #000, /* Top-right shadow */
+  -1px  1px 0 #000, /* Bottom-left shadow */
+   1px  1px 0 #000; /* Bottom-right shadow */
+  margin-top: -2vh;
+  margin-bottom: -10vh;
+  align-self: center;
+}
+
+.row1 {
+  height:40vh;
+  width:60vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  align-self: center;
+  margin-top: -8vh;
+}
+
+.row2 {
+  height:40vh;
+  width:60vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  align-self: center;
+  margin-top: -5vh;
+}
+
+
+.shelf1 {
+  background-image: url('/wood.png');
+  height: 2vh;
+  width: 55vh;
+  align-self: center;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  border-radius: 1px;
+}
+
+.shelf2 {
+  background-image: url('/wood.png');
+  height: 2vh;
+  width: 55vh;
+  align-self: center;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 1px;
+}
+
+.moreinfodownstairs{
+  font-size: 2vh;
+  padding: 1vh;
+  background-color: white;
+  border: 2px solid #000;
+  border-radius: 3px;
+  align-self: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 2vh;
+  cursor: pointer;
+}
+
+.moreinfodownstairs:hover {
+  background-color: orangered;
+  color: goldenrod;
+  text-shadow: 
+    -1px -1px 0 #000,
+     1px -1px 0 #000, 
+    -1px  1px 0 #000, 
+     1px  1px 0 #000;
+}
+
+.page1a img {
+  height: 20vh;
+  border-radius: 2px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.page2a {
+  height:100vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  background-image:  url('/paper3.png');
+  align-items: center;
+}
+
+.booksandshelf {
+  height: 85vh;
+  width: 55vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.book1 {
+  height: 10vh;
+  width: 45vh;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), transparent, transparent, rgba(0, 0, 0, 0.4)),
+                url('/bcfc.jpeg') center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.book1 p {
+  font-family: 'Varsity';
+  font-size: 5.5vh;
+  font-style: italic;
+  -webkit-text-stroke: 1px black;
+  color: whitesmoke; 
+}
+
+.book2 {
+  height: 8vh;
+  width: 48vh;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), transparent, transparent, rgba(0, 0, 0, 0.4)),
+                url('/velvet.png') center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+    
+}
+
+.book2 p {
+  font-family: 'Halloween';
+  font-size: 5vh;
+  color: darkred;
+  -webkit-text-stroke: 1px black;
+}
+
+.book3 {
+  height: 10vh;
+  width: 50vh;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), transparent, transparent, rgba(0, 0, 0, 0.5)),
+                url('/red70s.png') center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.book3 p {
+  font-family: 'Groovy';
+  font-size: 7vh;
+  color: orange;
+  -webkit-text-stroke: 2px black;
+}
+
+.book4 {
+  height: 16vh;
+  width: 52vh;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  background-size: 50vh, 7vh;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), transparent, transparent, rgba(0, 0, 0, 0.5)),
+                url('/roman.jpeg') center/cover no-repeat;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.book4 p {
+  font-family: 'Gratina';
+  font-size: 5vh;
+  color: white;
+  -webkit-text-stroke: 1px white;
+  margin: -0.8vh;
+  padding-left: 2vh;
+}
+
+.book5 {
+  height: 14vh;
+  width: 54vh;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), transparent, transparent, rgba(0, 0, 0, 0.5)),
+                url('/bauhaus.png') center/cover no-repeat;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.book5 p {
+  width: 45vh;
+  font-family: 'Conthrax';
+  font-size: 3vh;
+  color: white;
+  padding-left: 1vh;
+  margin: -0.5vh;
+}
+
+.shelf3 {
+  background-image: url('/wood.png');
+  height: 5vh;
+  width: 55vh;
+  align-self: center;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 1px;
+}
+
+.magazinesdownstairs{
+  font-size: 2vh;
+  padding: 1vh;
+  background-color: white;
+  border: 2px solid #000;
+  border-radius: 3px;
+  align-self: center;
+  justify-content: center;
+  display: flex;
+  margin-top: -8.5vh;
+  cursor: pointer;
+}
+
+.magazinesdownstairs:hover {
+  background-color: orangered;
+  color: goldenrod;
+  text-shadow: 
+    -1px -1px 0 #000,
+     1px -1px 0 #000, 
+    -1px  1px 0 #000, 
+     1px  1px 0 #000;
+}
+
+
+
+
+
+
+
+
+.page3a {
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  background-image:  url('/paper3.png');
+  align-items: center;
+  justify-content: center;
+}
+
+.tracklistcover {
+  height: 85vh;
+  width: 50vh;
+  background-image: url('/2.png');
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.tracklisttitle {
+  height: 30vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tracklisttitle p {
+  font-family: 'Vogue';
+  color: orangered;
+  font-size: 12vh;
+  margin: 0;
+}
+
+.starter {
+  height: 20vh;
+  width: 38vh;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  padding-left: 1vh;
+}
+
+.startertitle {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  font-family: 'Mantana';
+  color: orange;
+  -webkit-text-stroke: 0.3vh black;
+  font-size: 8vh;
+  margin: 0;
+}
+
+.starterdetail {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  font-family: 'Mantana';
+  color: white;
+  -webkit-text-stroke: 0.2vh black;
+  font-size: 4vh;
+  margin-top: -2vh;
+}
+
+.main {
+  height: 20vh;
+  width: 38vh;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+}
+
+.maintitle {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  font-family: 'Mantana';
+  color: orange;
+  -webkit-text-stroke: 0.3vh black;
+  font-size: 8vh;
+}
+
+.maindetail {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  font-family: 'Mantana';
+  color: white;
+  -webkit-text-stroke: 0.2vh black;
+  font-size: 4vh;
+  margin-top: -2vh;
+}
+
+.dessert {
+  height: 20vh;
+  width: 38vh;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  padding-left: 1vh;
+}
+
+.desserttitle {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  font-family: 'Mantana';
+  color: orange;
+  -webkit-text-stroke: 0.3vh black;
+  font-size: 8vh;
+  
+}
+
+.dessertdetail {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  font-family: 'Mantana';
+  color: white;
+  -webkit-text-stroke: 0.2vh black;
+  font-size: 4vh;
+  margin-top: -2vh;
+}
+
+.shelf4 {
+  background-image: url('/wood.png');
+  height: 5vh;
+  width: 55vh;
+  align-self: center;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 1px;
+}
+
+.RSVPdownstairs{
+  font-size: 2vh;
+  padding: 1vh;
+  background-color: white;
+  border: 2px solid #000;
+  border-radius: 3px;
+  align-self: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 2vh;
+  cursor: pointer;
+}
+
+.RSVPdownstairs:hover {
+  background-color: orangered;
+  color: goldenrod;
+  text-shadow: 
+    -1px -1px 0 #000,
+     1px -1px 0 #000, 
+    -1px  1px 0 #000, 
+     1px  1px 0 #000;
+}
+
+
+
+
+.page4a {
+  height:120vh;
+  display: flex;
+  justify-content: center;
+  background-image:  url('/paper3.png');
+}
+
+.page4acontent {
+  width: 50vh;
+}
+
+.RSVP {
+  font-size: 8vh;
+  color: orangered;
+  text-shadow: 
+  -1px -1px 0 #000, /* Top-left shadow */
+   1px -1px 0 #000, /* Top-right shadow */
+  -1px  1px 0 #000, /* Bottom-left shadow */
+   1px  1px 0 #000; /* Bottom-right shadow */
+   display: flex;
+   justify-content: center;
+}
+
+.joinus {
+    font-size: 3vh;
+    color: goldenrod;
+    text-shadow: 
+    -1px -1px 0 #000, /* Top-left shadow */
+     1px -1px 0 #000, /* Top-right shadow */
+    -1px  1px 0 #000, /* Bottom-left shadow */
+     1px  1px 0 #000; /* Bottom-right shadow */
+    margin-top: -4vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: -8vh;
+  }
+
+.RSVPQ {
+  margin-bottom: 1vh;
+  font-size: 2.5vh
+}
+
+.RSVPradio {
+  font-size: 2.5vh
+}
+
+.RSVPbuttondiv {
+  display: flex;
+  justify-content: center;
+  z-index: 0;
+}
+
+.RSVPbutton {
+  height: 8vh;
+  font-size: 2.5vh;
+  color: black; 
+  border-radius: 0.5vh;
+  text-decoration: none;
+  background-color: white;
+  border: 2px solid black;
+  margin-top: 5vh;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.RSVPbutton:hover {
+  background-color: orangered;
+  color: goldenrod;
+  text-shadow: 
+    -1px -1px 0 #000,
+     1px -1px 0 #000, 
+    -1px  1px 0 #000, 
+     1px  1px 0 #000;
+}
+
+input {
+  width: 50vh;
+  font-size: 2.5vh;
+  border: 1px solid black;
+}
+
+.RSVPQinputtall {
+  height: 10vh
+}
+
+.RSVPradioinput {
+  font-size: 2.5vh;
+  width: 4vh;
+}
+
+
+
+
+
+
+
+
+.page4b {
+  height:120vh;
+  display: flex;
+  justify-content: center;
+  background-image:  url('/paper3.png');
+}
+
+.page4bcontent {
+  width: 50vh;
+}
+
+.thankyou {
+  font-size: 3vh;
+  color: goldenrod;
+  text-shadow: 
+  -1px -1px 0 #000, /* Top-left shadow */
+   1px -1px 0 #000, /* Top-right shadow */
+  -1px  1px 0 #000, /* Bottom-left shadow */
+   1px  1px 0 #000; /* Bottom-right shadow */
+  margin-top: -4vh;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: -8vh;
+}
+
+.RSVPA {
+  font-size: 2.5vh;
+  color: goldenrod;
+  text-shadow: 
+  -1px -1px 0 #000, /* Top-left shadow */
+   1px -1px 0 #000, /* Top-right shadow */
+  -1px  1px 0 #000, /* Bottom-left shadow */
+   1px  1px 0 #000; /* Bottom-right shadow */
+   margin-top: -1vh;
+}
+
+.backToTop {
+  height: 8vh;
+  font-size: 2.5vh;
+  background-color: white;
+  border: 2px solid #000;
+  border-radius: 3px;
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  margin: auto; /* Center the button horizontally and vertically */
+  margin-top: 5vh;
+  cursor: pointer;
+}
+
+.backToTop:hover {
+  background-color: orangered;
+  color: goldenrod;
+  text-shadow: 
+    -1px -1px 0 #000,
+     1px -1px 0 #000, 
+    -1px  1px 0 #000, 
+     1px  1px 0 #000;
+}
