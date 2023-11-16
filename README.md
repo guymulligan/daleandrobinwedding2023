@@ -2,7 +2,7 @@ Dearly beloved, we are gathered here today to witness... a wedding website?! ðŸ‘
 
 Here is the wedding website I made recently - this is a demo version with all personal details removed and names changed! The email form has also been disconnected for this live version
 
-Here are a few things the couple wanted their site:
+Here are a few things the couple wanted for their site:
 - "Nothing boring or cliche, we want something which reflects us"
 - "We love record shops and music and books and 70's design"
 - "Some sort of RSVP form so we don't have to spend ages sifting through notebooks and documents"
